@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.cabecera{
+    width: 20%;
+    height: 20%;
+    margin-left: 16em;
+    margin-right: 16em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#barra{
+    font-family: 'Helvetica';
+    font-weight: 400;
+}
+#portada{
+    padding: .2em;
+}
+#login{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 400;
+    float: left;
+    position: absolute;
+    margin-left: 25em;
+    margin-top: 8em;
+}
+.usuario{
+    background-color: rgb(64, 175, 246);
+    border-radius: 5px;
+    border: groove white 4px;
+}
+.contraseña{
+    background-color: rgb(64, 175, 246);
+    border-radius: 5px;
+    border: groove white 4px;
+}
+#logeado{
+    background-color: rgb(64, 175, 246);
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 400;
+    border-radius: 10px;
+    border: groove white 4px;
+}
+#imagen1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 19em;
+    margin-right: 10em;
+    float: left;
+}
+#carouselExampleCaptions{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 24em;
+    margin-right: 24em;
+}
+#descripcion{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+#descriptivo{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 17em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+img{
+    width: 60%;
+    height: 100%;
+}
+.row{
+    padding: 1em;
+}
+#seguir{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: large;
+    text-align: center;
+}
+#info{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    display: flex;
+    justify-content: right;
+    margin: 4em;
+}
+#socialMedia1{
+    width: 20%;
+    height: 50%;
+    margin-left: 8em;
+    margin-top: 2em;
+}
+#socialMedia{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 4em;
+    margin-top: 2em;
+}
+#contacto{
+    background-color: black;
+}
+footer{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+#micro{
+    width: 5%;
+    height: 5%;
+}

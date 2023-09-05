@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="cabecera"><a class="nav-link" href="#micro"><img id="cabeza" src="IMG/logo-minecraft.svg"></h1></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="barra">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#carouselExampleCaptions">Juegos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#info">Comunidad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#seguir">Soporte Técnico</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="portada">
+        <img id="imagen1" src="IMG/Minecraft.jpg" alt="Portada">
+        <form id="login">
+            <div>
+                <label for=»user»> Usuario: </label>         
+                <input class="usuario" type=»text» id=»user» required/>
+            </div>
+            <div>
+                <label for=»password»> Contraseña: </label>
+                <input class="contraseña" type=»password» id=»password» required/>
+            </div>
+            <button id="logeado" type=»submit»> Login </button>
+        </form>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://www.minecraft.net/es-es/about-minecraft"><img src="IMG/minecrafts.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <p id="descripcion">Explora nuevos mundos, descubre criaturas únicas y vive un sin fin de aventuras solo o en compañía de tus amigos</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.minecraft.net/es-es/about-dungeons"><img src="IMG/dungeons.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <p id="descripcion">Una nueva versión llena de acción basada en la exploración de mazmorras</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.minecraft.net/es-es/about-legends"></a><img src="IMG/legends.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <p id="descriptivo">Averigua que misterios se ocultan tras las leyendas en esta versión de acción y estrategia</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col"><a href="https://www.minecraft.net/es-es/marketplace/pdp?id=46913ebe-392d-454a-8b26-78d513e8bd1d"><img src="IMG/hqdefault.jpg" id="disney"></a></div>
+            <div class="col">
+                <p id="info">Entra en la magia de Disney con un DLC exclusivo Aventúrate por Agrabah con Aladín y por Atlántica con Ariel. Ayuda a Blancanieves o haz un viaje al País de las Maravillas y mucho más.</p>
+
+            </div>    
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="info">¿Cómo creas una cuenta o sobrevives a una noche en la Superficie? ¡Sube tus habilidades de nivel con una nuevabiblioteca de recursos y guías!</p>
+            </div>
+            <div class="col"><a href="https://www.minecraft.net/es-es/minecraft-tips-for-beginners"><img src="IMG/logo.jpeg"></a></div>
+        </div>
+        <div class="row">
+            <div class="col"><a href="https://www.minecraft.net/es-es/articles"><img src="IMG/noticias.jpg"></a></div>
+            <div class="col">
+                <p id="info">Mantente al tanto y no te pierdas nada en la nueva página de noticias de Minecraft.net, ¡repleta de novedades sobre guías, actualizaciones de juegos y mucho más!</p>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="contacto"><p id="seguir">SIGUENOS</p>
+        <div class="col"><a href="https://www.facebook.com/minecraft/"><img src="IMG/facebook-6860914_1280.png" id="socialMedia1"></a></div>
+        <div class="col"><a href="https://www.instagram.com/minecraft/"><img src="IMG/instagram.png" id="socialMedia"></a></div>
+        <div class="col"><a href="https://twitter.com/Minecraft"><img src="IMG/twitter.png" id="socialMedia"></a></div>
+        <div class="col"><a href="https://www.reddit.com/r/Minecraft/?rdt=57413"><img src="IMG/reddit.png" id="socialMedia"></a></div>
+        <div class="col"><a href="https://www.youtube.com/minecraft"><img src="IMG/youtube.png" id="socialMedia"></a></div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Microsoft <a class="nav-link" href="#cabeza"><img src="IMG/microsoft.png" id="micro"></a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>></script>
+    <script src="script.js"></script>
+    <script type=»module» src=»./login/login.js»></script>
+</body>
+</html>
